@@ -1,0 +1,156 @@
+.top {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+  .top {
+    display: block;
+    font-size:smaller;
+  }
+}
+
+.jumbotron {
+    background-image: url("foto_jumbotron.jpg");
+}
+
+.btn {
+    background-color: black;
+    border: none;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.introductie {
+    text-align:justify;
+    line-height: 150%;
+    border-spacing: 20px;
+    margin-bottom: 30px;
+}
+
+.prijslijst {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.behandelingen {
+    text-align: center;
+    font-size: large;
+}
+
+.noot {
+    font-size:medium;
+}
+
+img {
+  margin-left: 210px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  img {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+
+/* contact formulier */
+
+h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  label, input, textarea {
+    display: block;
+  }
+  
+  .email {
+    width: 1110px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .email {
+      width: 300px;
+    }
+  }
+  
+  .onderwerp {
+    width: 1110px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .onderwerp {
+      width: 300px;
+    }
+  }
+  
+  .bericht {
+    width: 1110px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .bericht {
+      width: 300px;
+    }
+  }
+  
+  button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  button:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+
+  /* Google Maps */
+
+  @media screen and (max-width: 576px) {
+    .map-responsive iframe {
+      width: 100%;
+    }
+  }
+
+  footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    
+  }
